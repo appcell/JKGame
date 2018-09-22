@@ -97,14 +97,14 @@ label start:
     
     window hide dissolve
     
+    play sound "sound/CarDoor2.mp3"
+    
     scene bankgate night
     with fadehold
     
     pause
     
-    play sound "sound/CarDoor2.mp3"
-    
-    secretary "空条博士！您可算是来了。"
+    secretary "空条博士！您总算是来了。"
     
     jotaro "唔。{p}那个替身使者还是拒绝合作？"
     
@@ -258,9 +258,9 @@ label start:
     
     robber "你是怎么..."
     
-    jotaro "...{p}闭嘴。"
-    
     play sound "sound/falling.mp3"
+    
+    jotaro "...{p}闭嘴。"
     
     jotaro_nvl """
     一记手刀将他击昏之后，白金之星沿着丝线，用精密度A的手指剥离丝线另一头的粘液。
@@ -433,7 +433,7 @@ label after:
     secretary "男孩叫花京院典明，11岁，目前在市立公晓小学就读五年级。另外，他也是个替身使者。"
 
     """
-    秘书这样说着，意味深长地向我瞥了一眼。
+    这样说着，她意味深长地向我瞥了一眼。
     """
 
     secretary "替身是绿色、半透明的人形，可以变化成多种形状，并且有很强的远距离操控能力，被取名为绿之法皇。"
@@ -494,18 +494,19 @@ label after:
 
     secretary "…这…的确，您说的没错。{p}
                
-               花京院的父母对孩子的精神状态很担忧，交流过程中因此多次在工作人员面前相互争吵。"
+               花京院的父母对孩子的精神状态很担忧，交流过程中也多次相互争吵。"
 
     jotaro "那好。{p}SPW下属的儿童慈善基金会，可以帮助问题儿童恢复正常。{p}你知道该怎么做了吧？"
 
     secretary "…我知道，但是…"
 
     jotaro "最多十天，希望能见到花京院典明本人站在这里。就这样。"
-
+    
+    play sound "sound/Closing1.mp3"
     
     pause
     
-    play sound "sound/Closing1.mp3"
+
 
     jotaro_nvl """
     {clear}
