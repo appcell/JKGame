@@ -94,26 +94,6 @@ style frame:
 ## and id "window" to apply style properties.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
-
-screen monologue(what):
-    style_prefix "monologue"
-    modal True
-
-    window:
-        id "monologue_window"
-        text what
-
-style monologue_label is default
-style monologue_dialogue is default
-style monologue_thought is say_dialogue
-style monologue_window:
-    
-    xalign 0.5
-    xfill True
-    yalign 0
-    ysize 720
-    yfill True
-    
     
 screen say(who, what):
     style_prefix "say"
